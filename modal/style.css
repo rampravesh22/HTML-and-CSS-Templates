@@ -18,8 +18,8 @@ html {
 body {
     background-color: #edf2f7;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
 }
 
@@ -73,9 +73,7 @@ p {
 }
 
 .action {
-    display: flex;
-    align-items: center;
-    justify-content: end;
+    align-self: flex-end;
 }
 
 .modal__container .close{
@@ -120,7 +118,7 @@ p {
 .form-input{
     margin-bottom: 3rem;
 }
-form{
+.form-container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -141,3 +139,4 @@ form{
 .form-control:focus{
     box-shadow: 0 0 3px 3px var(--bg-primary);
 }
+
